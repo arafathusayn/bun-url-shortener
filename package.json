@@ -1,0 +1,15 @@
+{
+  "name": "bun-url-shortener",
+  "module": "server.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun server.ts",
+    "dev": "bun run --watch server.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
